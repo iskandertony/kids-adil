@@ -9,6 +9,7 @@ export function Form() {
     const [phone, setPhone] = useState('');
     const [comment, setComment] = useState('');
     const  handleSubmit = async (e: any) => {
+        console.log(process.env.NEXT_PUBLIC_BOT_TOKEN)
         e.preventDefault();
         if(name !== '' || phone !== '') {
             const text = `New message from ${name ? name : 'anonym'}:\n\nName: ${name}\nEmail: ${phone}\nMessage:\n${comment}`;
