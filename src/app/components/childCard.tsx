@@ -13,15 +13,15 @@ interface ChildCard {
 }
 export function Card({props} :{props : ChildCard}): JSX.Element{
     return (
-        <div className={"flex flex-col bg-white drop-shadow-xl shadow-slate-300  items-center min-w-[440px] gilroy h-[725px] rounded-[25px]"}>
-            <Image className={"rounded-[20px]"} height={400} width={440} src={props.image} alt={props.name}/>
-            <div className={"flex flex-col justify-between mt-[20px] gap-3 px-5"}>
-            <div className={""}>
-                <h1 className={"font-[800] text-[26px]"}>{props.name} , {props.age}</h1>
+        <div className={"flex flex-col bg-white drop-shadow-xl shadow-slate-300  items-center mx-auto w-[360px] md:min-w-[440px] pb-[20px] gilroy md:h-[745px]  rounded-[25px]"}>
+            <Image className={"rounded-[20px] w-full  xl:h-[400px] xl:w-[440px]"} height={400} width={440} src={props.image} alt={props.name}/>
+            <div className={"flex flex-col  md:w-auto w-[360px] justify-between mt-[20px] md:pb-[25px] gap-[20px]  px-[10px] "}>
+            <div >
+                <h1 className={"font-[800] text-[24px] md:text-[26px]"}>{props.name} , {props.age}</h1>
             </div>
             <p className={" font-[400] text-[18px]"}>{props.need}</p>
-            <p>Диагноз: <span className={"font-[700] text-[18px]"}>{props.diagnosis}</span></p>
-            <div className={"flex font-[400] text-[18px] w-full  flex-row gap-1"}>
+            <p className="w-[90%]">Диагноз: <b className={"inline font-[700] text-[16px] md:text-[18px]"}>{props.diagnosis}</b></p>
+            <div className={"flex font-[400] text-[16px] md:text-[18px]  flex-row md:gap-1"}>
                 <p className={"  w-[33%]"}>Необходимо:<br/>
                     <span className={"font-semibold"}>{props.necessary}</span></p>
                 <p className={" w-[33%]"}>Собрано:<br/>
@@ -29,7 +29,7 @@ export function Card({props} :{props : ChildCard}): JSX.Element{
                 <p className={" w-[33%]"}>Осталось:<br/>
                     <span className={"font-semibold"}>{props.left}</span></p>
             </div>
-            <button className="w-[400px] shadow-l shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 font-bold justify-center h-[55px]" type={"button"}>
+            <button className="md:w-[400px] shadow-l shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 font-bold justify-center h-[55px]" type={"button"}>
                 <Image width={30} height={30} src={"/images/heart.svg"} alt={"heart"}/>
                 <span className={"text-white text-[24px]"}>хочу помочь</span>
             </button>

@@ -12,7 +12,7 @@
     background-color: #FEFCF4;
   }
   .container {
-    @apply xl:max-w-[1440px] mx-auto ;
+    @apply min-w-[1440px] px-5 mx-auto ;
   }
   .gilroy{
     font-family: 'Gilroy', sans-serif;

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Благотворительность для детей ",
   description: " Бдаготворительный фонд сбора средств для детей с ограниченными возможностями здоровья в Кыргызстане",
     icons: {
-    icon: "./logo.png"
+    icon: "/logo.png"
     }
 };
 
