@@ -4,7 +4,7 @@ import {useState} from "react";
 import {HeaderBurger} from "@/app/components/headerBurger";
 
 export function Header(){
-    const [isClose, setIsClose] = useState<boolean>(true);
+    const [isClose, setIsClose] = useState<boolean>(false);
 
     return(
         <header className="h-[80px] relative px-[20px] md:px-0 md:container flex items-center justify-between">
