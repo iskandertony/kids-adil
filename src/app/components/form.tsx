@@ -9,19 +9,18 @@ export function Form() {
     const [phone, setPhone] = useState('');
     const [comment, setComment] = useState('');
     const  handleSubmit = async (e: any) => {
-        console.log(process.env.NEXT_PUBLIC_BOT_TOKEN)
         e.preventDefault();
         if(name !== '' || phone !== '') {
             const text = `New message from ${name ? name : 'anonym'}:\n\nName: ${name}\nEmail: ${phone}\nMessage:\n${comment}`;
 
             try {
-                const response = await fetch(`https://api.telegram.org/bot${process.env.NEXT_PUBLIC_BOT_TOKEN}/sendMessage`, {
+                const response = await fetch(`https://api.telegram.org/bot7221637687:AAFc2kP7V7UlizVK-0ucC6G3ja_wcmhEp8I/sendMessage`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        chat_id: process.env.NEXT_PUBLIC_CHAT_TOKEN,
+                        chat_id: '5970023965',
                         text: text
                     })
                 });
