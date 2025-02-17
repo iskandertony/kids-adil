@@ -91,7 +91,7 @@ export function Form() {
                 </form>
             </div>
             <div className={"order-1 md:order-2"}>
-                <h3 className="text-[45px] gilroy w-[90%] font-medium text-[#397BE8]">КАК ИСПОЛЬЗУЮТСЯ СРЕДСТВА ФОНДА?</h3>
+                <h3 className="text-[35px] md:text-[45px] gilroy w-[90%] font-medium text-[#397BE8]">КАК ИСПОЛЬЗУЮТСЯ СРЕДСТВА ФОНДА?</h3>
                 <p className="text-[#397BE8] font-medium text-[20px] mt-4">
                     Все средства, собранные фондом, направляются на реализацию программ помощи детям, обеспечивая их
                     реальной поддержкой в самых разных сферах.
