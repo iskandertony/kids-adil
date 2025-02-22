@@ -2,7 +2,7 @@ import Image from "next/image"
 export function Footer(){
     return(
         <footer className={"md:p-[50px] p-[20px]  rounded-xl  bg-[#397BE8]"}>
-            <div className={"relative grid gap-[50px] md:gap-0 text-white grid-cols-1 md:grid-cols-3"}>
+            <div className={"relative grid gap-[50px] md:gap-0 text-white grid-cols-1 md:gap-y-[60px] lg:grid-cols-3 md:grid-cols-2"}>
                 <div className={"flex flex-col  gap-[20px]  "}>
                     <Image alt={"logo"} src={"/logo.svg"} width={200} height={50}/>
                     <div className={"flex gilroy gap-[10px] flex-col"}>
@@ -12,16 +12,16 @@ export function Footer(){
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Телефон:</span>
-                        <p>996556400400</p>
+                        <p><a href="tel:+996556400400">+996 556 400 400</a></p>
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Email</span>
-                        <p>pomogatlegkokg@gmail.com</p>
+                        <p><a href="mailto:pomogatlegkokg@gmail.com">pomogatlegkokg@gmail.com</a></p>
                     </div>
                 </div>
 
                 <div className={"md:pl-[100px]"}>
-                    <nav>
+                <nav>
                         <h3 className={"gilroy text-gray-400 mb-[20px] text-[20px]"}>СТРАНИЦЫ</h3>
                         <ul className="text-[14px] flex flex-col gilroy uppercase  gap-[20px] font-thin  ">
                             <a href="#about">

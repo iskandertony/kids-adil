@@ -12,7 +12,6 @@ export function Form() {
         e.preventDefault();
         if(name !== '' || phone !== '') {
             const text = `New message from ${name ? name : 'anonym'}:\n\nName: ${name}\nEmail: ${phone}\nMessage:\n${comment}`;
-
             try {
                 const response = await fetch(`https://api.telegram.org/bot7221637687:AAFc2kP7V7UlizVK-0ucC6G3ja_wcmhEp8I/sendMessage`, {
                     method: 'POST',
@@ -24,7 +23,6 @@ export function Form() {
                         text: text
                     })
                 });
-
                 if (response.ok) {
                     alert('Message sent!');
                 } else {
@@ -37,12 +35,12 @@ export function Form() {
         } else alert ("Sorry write something")
     };
     return (
-        <section id={"donate"} className={"flex flex-col xl:container p-[20px] relative md:my-[100px] "}>
-            <Titling title={"Пожертовать"} color={"#EE76A9"}/>
-        <div className=" mx-auto  bg-cream  grid grid-cols-1 grid-flow-dense md:grid-cols-2 xl:gap-[100px] gap-8">
+    <section id={"donate"} className={"flex flex-col xl:container p-[20px] relative md:my-[100px] "}>
+            <Titling title={"Пожертовать"} color={"#EE76A9"} />
+        <div className=" mx-auto  bg-cream  grid grid-cols-1 grid-flow-dense lg:grid-cols-2 xl:gap-[100px] gap-8">
             <Image height={150} width={150} className={"absolute lg:w-[150px] lg:h-[150px] right-[90%] w-[50px] h-[50px]  top-5 lg:top-0 lg:right-[300px]"} src={"/images/form-line-circle.svg"} alt={"alt circle"} />
             <Image height={450} width={400} className={"absolute hidden xl:block z-[-1] top-[540px] left-[300px]"} src={"/images/bsnner-line2.svg"} alt={"alt circle"} />
-            <Image className={"absolute top-[530px] left-[-50px] hidden xl:block z-[-1]"} src={"/images/form-blue.svg"} alt={"banner-cicrle"} height={200} width={200}/>
+            <Image className={"absolute top-[530px] left-[-50px] hidden xl:block z-[-1]"} src={"/images/form-blue.svg"} alt={"banner-cicrle"} height={200} width={200} />
             <div className={"order-2 md:order-1"}>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-[40px]">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -102,6 +100,6 @@ export function Form() {
                 </p>
             </div>
         </div>
-        </section>
+    </section>
     )
 }

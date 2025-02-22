@@ -7,15 +7,15 @@ export function Header(){
     const [isClose, setIsClose] = useState<boolean>(false);
 
     return(
-        <header className="h-[80px] relative px-[20px] md:px-0 md:container flex items-center justify-between">
+        <header className="h-[80px] relative px-[20px] md:px-[20px] xl:container flex items-center justify-between">
 
-            <span className={"md:w-[187px] w-[120px]"}>
+            <span className={"md:w-[187px] xl:w-[187px] lg:w-[120px] w-[120px]"}>
                 <a href="#banner">
                     <Image src="/logo.svg" width={187} height={30} alt="logo"/>
                 </a>
             </span>
-            <nav className={"hidden lg:block"}>
-                <ul className="text-[14px] gilroy uppercase text-[#000000] gap-[40px] font-thin flex ">
+            <nav className={"hidden  lg:block"}>
+                <ul className="xl:text-[14px] lg:text-[8px] gilroy uppercase text-[#000000] gap-[40px] font-thin flex ">
                     <a href="#about">
                         <li>О ФОНДЕ</li>
                     </a>
@@ -33,7 +33,7 @@ export function Header(){
                     </a>
                 </ul>
             </nav>
-            <div className={"hidden md:block"}>
+            <div className={"hidden lg:block"}>
                 <button
                     className="w-[250px]  shadow-2xl shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 font-bold justify-center h-[55px]"
                     type={"button"}>

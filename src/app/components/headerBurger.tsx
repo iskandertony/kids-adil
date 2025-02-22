@@ -7,10 +7,10 @@ export function HeaderBurger({handleClose}: any){
     }
 
     return(
-        <div className={` relative top-0  bg-[#ffffff] z-[100] w-[110vw] h-[100vh]`}>
+        <div className={` relative top-0    bg-[#ffffff] z-[100] md:w-[100vw] w-[100vw] h-[100vh]`}>
             <button type={"button"} onClick={() =>  handleClose(false)} >
                 <Image className={"absolute top-5 left-[20px]"} src={"/logo.svg"} width={120} height={45} alt={"close"}/>
-            <Image className={"absolute top-3 right-[60px]"} src={"/images/close.svg"} width={45} height={45} alt={"close"}/>
+            <Image className={"absolute top-3 right-[30px]"} src={"/images/close.svg"} width={45} height={45} alt={"close"}/>
             </button>
             <nav className={"p-[50px] pt-[80px]"}>
                 <ul className="text-[14px] gilroy uppercase  text-[#000000] gap-[40px] font-thin flex flex-col ">
