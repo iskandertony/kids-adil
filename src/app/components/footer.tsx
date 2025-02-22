@@ -1,7 +1,7 @@
 import Image from "next/image"
 export function Footer(){
     return(
-        <footer className={"md:p-[50px] p-[20px]  rounded-xl  bg-[#397BE8]"}>
+        <footer className={"md:p-[50px] p-[20px] xl:container  rounded-xl  bg-[#397BE8]"}>
             <div className={"relative grid gap-[50px] md:gap-0 text-white grid-cols-1 md:gap-y-[60px] lg:grid-cols-3 md:grid-cols-2"}>
                 <div className={"flex flex-col  gap-[20px]  "}>
                     <Image alt={"logo"} src={"/logo.svg"} width={200} height={50}/>
