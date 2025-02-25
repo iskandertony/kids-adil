@@ -1,5 +1,6 @@
 import Image from "next/image"
 import {JSX} from "react";
+
 interface ChildCard {
     id: number,
     image: string,
@@ -9,15 +10,16 @@ interface ChildCard {
     diagnosis: string,
     necessary:number,
     collected: number,
-    left: number,
+    left: number
 }
+
 export function Card({props} :{props : ChildCard}): JSX.Element{
     return (
         <div className={"flex flex-col bg-white drop-shadow-xl shadow-slate-300  items-center mx-auto w-[360px] md:min-w-[440px] pb-[20px] gilroy md:h-[745px]  rounded-[25px]"}>
-            <Image className={"rounded-[20px] w-full  xl:h-[400px] xl:w-[440px]"} height={400} width={440} src={props.image} alt={props.name}/>
+            <Image className={"rounded-[20px] w-full  object-cover h-[400px] xl:h-[400px] xl:w-[440px]"} height={400} width={440} src={props.image} alt={props.name}/>
             <div className={"flex flex-col  md:w-auto w-[360px] justify-between mt-[20px] md:pb-[25px] gap-[20px]  px-[10px] "}>
             <div >
-                <h1 className={"font-[800] text-[24px] md:text-[26px]"}>{props.name} , {props.age}</h1>
+                <h1 className={"font-[800] leading-[20px] text-[24px] md:text-[26px]"}>{props.name} , {props.age}</h1>
             </div>
             <p className={" font-[400] text-[18px]"}>{props.need}</p>
             <p className="w-[90%]">Диагноз: <b className={"inline font-[700] text-[16px] md:text-[18px]"}>{props.diagnosis}</b></p>

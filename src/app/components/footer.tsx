@@ -7,12 +7,12 @@ export function Footer(){
                     <Image alt={"logo"} src={"/logo.svg"} width={200} height={50}/>
                     <div className={"flex gilroy gap-[10px] flex-col"}>
                         <span>Адрес:</span>
-                        <p>Логвиненко 55, Бишкек, Кыргызстан.
-                            Общественный Фонд “Помогать легко”</p>
+                        <p>
+                            Общественный Фонд “Дети Адиля”</p>
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Телефон:</span>
-                        <p><a href="tel:+996556400400">+996 556 400 400</a></p>
+                        <p><a href={`tel:+996556400400`}>+996 556 400 400</a></p>
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Email</span>
