@@ -13,7 +13,7 @@ export function NewsCard  ({news : {title, date, description, image}} : {news : 
                 <div className="p-4">
                     <p className="text-gray-500 my-1 text-sm">{date}</p>
                     <h3 className="text-lg font-regular leading-5 text-gray-900">{title}</h3>
-                    <p className=" text-[#3E3232] text-sm mt-2">{description}</p>
+                    <p className=" text-[#3E3232]  overflow-hidden text-ellipsis text-sm mt-2">{description}</p>
                 </div>
         </div>
     )
