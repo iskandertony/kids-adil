@@ -34,12 +34,14 @@ export function Header(){
                 </ul>
             </nav>
             <div className={"hidden lg:block"}>
+                <a href={"#donate"}>
                 <button
                     className="w-[250px]  shadow-2xl shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 font-bold justify-center h-[55px]"
                     type={"button"}>
                     <Image src="/icons/hands.svg" width={25} height={25} alt="hands"/>
                     <span className="text-[24px] font-thin text-white">пожертвовать</span>
                 </button>
+                </a>
             </div>
             {
                 isClose ? null : (
