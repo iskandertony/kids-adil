@@ -13,7 +13,7 @@ export function Form() {
         if(name !== '' || phone !== '') {
             const text = `New message from ${name ? name : 'anonym'}:\n\nName: ${name}\nEmail: ${phone}\nMessage:\n${comment}`;
             try {
-                const response = await fetch(`https://api.telegram.org/bot7221637687:AAFc2kP7V7UlizVK-0ucC6G3ja_wcmhEp8I/sendMessage`, {
+                const response = await fetch(`https://api.telegram.org/bot8070685984:AAE04KWEasbRAepugqVPhI_a84qFOhPodwQ/sendMessage`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
