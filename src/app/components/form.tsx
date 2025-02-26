@@ -19,7 +19,7 @@ export function Form() {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        chat_id: '5970023965',
+                        chat_id: '890185014',
                         text: text
                     })
                 });
