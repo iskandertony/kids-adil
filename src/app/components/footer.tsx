@@ -8,15 +8,15 @@ export function Footer(){
                     <div className={"flex gilroy gap-[10px] flex-col"}>
                         <span>Адрес:</span>
                         <p>
-                            Общественный Фонд “Дети Адиля”</p>
+                            Боконбаева 113 , Бишкек , Кыргызстан  Благотврительный фонд “Дети  Адиля”</p>
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Телефон:</span>
-                        <p><a href={`tel:+996556400400`}>+996 556 400 400</a></p>
+                        <p><a href={`tel:+996556400400`}>+996 995 131 365</a></p>
                     </div>
                     <div className={"flex flex-col"}>
                         <span>Email</span>
-                        <p><a href="mailto:pomogatlegkokg@gmail.com">pomogatlegkokg@gmail.com</a></p>
+                        <p><a href="mailto:adilovnagulnura@gmail.com">adilovnagulnura@gmail.com</a></p>
                     </div>
                 </div>
 

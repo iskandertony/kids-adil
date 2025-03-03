@@ -11,7 +11,7 @@ export function Form() {
     const  handleSubmit = async (e: any) => {
         e.preventDefault();
         if(name !== '' || phone !== '') {
-            const text = `New message from ${name ? name : 'anonym'}:\n\nName: ${name}\nEmail: ${phone}\nMessage:\n${comment}`;
+            const text = `New message from ${name ? name : 'anonym'}:\n\nИмя: ${name}\nНомер Телефона: ${phone}\nКоммент:\n${comment}`;
             try {
                 const response = await fetch(`https://api.telegram.org/bot8070685984:AAE04KWEasbRAepugqVPhI_a84qFOhPodwQ/sendMessage`, {
                     method: 'POST',
@@ -52,7 +52,7 @@ export function Form() {
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     className="w-[80%] md:w-full p-3 pl-10 border rounded-full shadow-sm focus:ring-red-500 focus:border-red-500"
-                                    placeholder="Акималиева Гульнара"
+                                    placeholder="ФИО"
                                 />
                             </div>
                         </div>
@@ -95,7 +95,8 @@ export function Form() {
                       </p>
                 <p className="text-[#397BE8] gilroy font-medium text-[20px] mt-8">
                     Мы приглашаем каждого человека стать частью нашего фонда. Вы можете помочь разными способами:
-                    Доноры: Ваши пожертвования помогут нам собирать средства для лечения детей, обеспечивать реабилитацию и поддержку в сложных ситуациях.
+                    <br/>  Волонтеры: Мы всегда рады добровольцам, которые готовы помочь нам в организации мероприятий, сборе средств и в других активностях фонда.
+                     <br/> Доноры: Ваши пожертвования помогут нам собирать средства для лечения детей, обеспечивать реабилитацию и поддержку в сложных ситуациях.
                     </p>
             </div>
         </div>

@@ -13,8 +13,6 @@ export function Banner(){
                     <h1 className=" font-[300] text-[#E5659B] gilroy w-[306px] md:w-full lg:w-[703px] leading-auto lg:leading-[65px] text-[25px] lg:text-[55px]">
                         <span className="font-[600]">ПОМОГИТЕ ДЕТЯМ С</span> ЗАБОЛЕВАНИЯМИ
                     </h1>
-                    <Image className="object-left md:w-[100px] w-[76px] z-10 -right-[25px] top-[120px] md:-top-[70px] md:-right-[70px] absolute" src="/images/banner-cyrcle.svg"
-                           height={150} width={150} alt={"banner-item"}/>
                   </div>
                      <div className="rounded-3xl mx-auto relative p-5 w-[306px] md:w-[770px]  px-4 bg-[#DD91BC] ">
                     <h1 className="font-medium md:font-[500] text-white gilroy w-[296px] md:w-[736px] leading-auto md:leading-[55px] text-[18px] md:text-[45px]">
