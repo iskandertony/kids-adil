@@ -15,7 +15,7 @@ interface ChildCard {
 
 export function Card({props} :{props : ChildCard}): JSX.Element{
     return (
-        <div className={"flex relative flex-col bg-white drop-shadow-xl  shadow-slate-300  items-center mx-auto w-[360px] md:min-w-[440px] pb-[20px] gilroy md:h-[745px]  rounded-[25px]"}>
+        <div className={"flex relative h-[730px] flex-col bg-white drop-shadow-xl  shadow-slate-300  items-center mx-auto w-[360px] md:min-w-[440px] pb-[20px] gilroy md:h-[745px]  rounded-[25px]"}>
             <Image className={"rounded-[20px] w-full  object-cover h-[400px] xl:h-[400px] xl:w-[440px]"} height={400} width={440} src={props.image} alt={props.name}/>
             <div className={"flex flex-col xl:w-full xl:px-[20px]  md:w-auto w-[360px] justify-between mt-[20px] md:pb-[25px] gap-[20px]  px-[10px] "}>
             <div >
@@ -32,7 +32,7 @@ export function Card({props} :{props : ChildCard}): JSX.Element{
                     <span className={"font-semibold"}>{props.left}</span></p>
             </div>
                 <a href={"#donate"} >
-            <button className="md:w-[400px] shadow-l shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 absolute bottom-5 font-bold justify-center h-[55px]" type={"button"}>
+            <button className="md:w-[400px] w-full shadow-l shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 absolute bottom-5 font-bold justify-center h-[55px]" type={"button"}>
                 <Image width={30} height={30} src={"/images/heart.svg"} alt={"heart"}/>
                 <span className={"text-white text-[24px]"}>хочу помочь</span>
             </button>

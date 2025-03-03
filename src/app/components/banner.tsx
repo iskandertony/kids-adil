@@ -25,19 +25,7 @@ export function Banner(){
                       </div>
                 </div>
                 <div className="flex flex-col p-3 w-[full] bg-white md:w-[450px] relative">
-                    <form  className="flex z-10 flex-col gap-3" action="">
-                        <input type="text" placeholder="Сумма вашей поддержки"
-                               className="p-5 rounded-3xl shadow-xl bg-[#fffff] h-[59px] font-[300] text-[#000000] gilroy w-full "/>
-                        <a href="#donate">
 
-                        <button
-                            className="w-full  shadow-2xl shadow-[#F66E7B] bg-[#F66E7B] rounded-[50px] flex items-center gap-3 font-bold justify-center h-[55px]"
-                            type={"button"}>
-                            <Image src="/icons/hands.svg" width={25} height={25} alt="hands"/>
-                            <span className="text-[24px] font-thin text-white">пожертвовать</span>
-                        </button>
-                        </a>
-                    </form>
                     <Image className="object-left hidden md:block  md:top-[-100px] md:right-[60px] md:absolute" src="/images/bsnner-line2.svg"
                            height={250} width={420} alt={"banner-item"}/>
                 </div>

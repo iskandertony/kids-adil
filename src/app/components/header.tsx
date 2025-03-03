@@ -10,26 +10,26 @@ export function Header(){
         <header className="h-[80px] relative px-[20px] md:px-[20px] xl:container flex items-center justify-between">
 
             <span className={"md:w-[187px] xl:w-[187px] lg:w-[120px] w-[120px]"}>
-                <a href="#banner">
+                <a href="/">
                     <Image src="/logo.svg" width={187} height={30} alt="logo"/>
                 </a>
             </span>
             <nav className={"hidden  lg:block"}>
-                <ul className="xl:text-[14px] lg:text-[8px] gilroy uppercase text-[#000000] gap-[40px] font-thin flex ">
-                    <a href="#about">
-                        <li>О ФОНДЕ</li>
+                <ul className="xl:text-[14px] lg:text-[8px] gilroy uppercase text-[#000000] gap-[40px] font-bold flex ">
+                    <a href="/about">
+                        <li className={"text-[#67519F]"}>О ФОНДЕ</li>
                     </a>
-                    <a href="#children">
-                        <li>дети с заболеваниями</li>
+                    <a href="/child">
+                        <li className={"text-[#F66E7B]"} >дети с заболеваниями</li>
                     </a>
-                    <a href="#donate">
-                        <li>пожертвовать</li>
+                    <a href="/#donate">
+                        <li className={"text-[#397BE8]"}>пожертвовать</li>
                     </a>
-                    <a href="#about">
-                        <li>о заболеваниях</li>
+                    <a href="/#about">
+                        <li className={"text-[#E9972B]"}>о заболеваниях</li>
                     </a>
-                    <a href="#donate">
-                        <li>контакты</li>
+                    <a href="/#donate">
+                        <li className={"text-[#323663]"}>контакты</li>
                     </a>
                 </ul>
             </nav>

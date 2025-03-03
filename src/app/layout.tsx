@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import {Header} from "@/app/components/header";
+import {Footer} from "@/app/components/footer";
 
 
 export const metadata: Metadata = {
@@ -21,7 +22,9 @@ export default function RootLayout({
     <body
         className={`Avenir Next Cyr`}
       >
-        {children}
+    <Header/>
+        <>{children}</>
+    <Footer />
       </body>
     </html>
   );

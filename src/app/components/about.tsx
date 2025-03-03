@@ -9,7 +9,7 @@ export function About() {
                     <h2 className={"text-[35px] md:text-[45px] font-[500] gilroy"}>ОСНОВНАЯ ЦЕЛЬ ПРОЕКТА ФОНДА</h2>
                     <p className={"text-[16px] md:text-[20px] w-[97%] font-[300] gilroy"}>Основная цель фонда — поддержка детей, страдающих от серьезных заболеваний, и помощь их семьям в самых сложных ситуациях. Мы понимаем, что болезнь может стать не только физическим испытанием, но и эмоциональной и финансовой нагрузкой для всей семьи. Фонд «Дети Адиля» создан для того, чтобы снять эту нагрузку, помогать детям, которые нуждаются в медицинской помощи, и делать их будущее светлее.</p>
                     <div className={"flex flex-col  md:flex-row gap-y-5 md:gap-x-10"}>
-                        <div className={ "w-[125px] md:min-w-[125px] h-[44px] rounded-[50px] border-[1px]  border-white flex items-center justify-center text-white bg-[#transtperent]"}>Про нас</div>
+                        <a href={"/about"}><button className={ "w-[125px] md:min-w-[125px] h-[44px] rounded-[50px] border-[1px]  border-white flex items-center justify-center text-white bg-[#transtperent]"}>Про нас</button></a>
                         <p className="text-[16px] md:text-[18px]  font-[300] w-[80%] gilroy" >Благотворительный фонд «Дети Адиля» был основан в честь моего отца, Адиля, который всегда считал, что каждый ребенок — это наш брат и сестра.</p>
                     </div>
                 </div>
