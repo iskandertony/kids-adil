@@ -35,7 +35,8 @@ export function Form() {
         } else alert ("Sorry write something")
     };
     return (
-    <section id={"donate"} className={"flex flex-col xl:container p-[20px] relative md:my-[100px] "}>
+        <section style={{backgroundImage: `url(/images/form-bg.svg)`}} className={"bg-contain Group 2 (3).png bg-center xl:-pt-[100px] bg-no-repeat w-full"}>
+    <section id={"donate"} className={"flex flex-col xl:container p-[20px] relative md:my-[100px]  "}>
             <Titling title={"Пожертовать"} color={"#EE76A9"} />
         <div className=" mx-auto  bg-cream  grid grid-cols-1 grid-flow-dense lg:grid-cols-2 xl:gap-[100px] gap-8">
             <Image height={150} width={150} className={"absolute lg:w-[150px] lg:h-[150px] right-[90%] w-[50px] h-[50px]  top-5 lg:top-0 lg:right-[300px]"} src={"/images/form-line-circle.svg"} alt={"alt circle"} />
@@ -101,5 +102,6 @@ export function Form() {
             </div>
         </div>
     </section>
+        </section>
     )
 }

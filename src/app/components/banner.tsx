@@ -22,7 +22,7 @@ export function Banner(){
                            height={25} width={360} alt={"banner-item"}/>
                       </div>
                 </div>
-                <div className="flex flex-col p-3 w-[full] bg-white md:w-[450px] relative">
+                <div className="flex flex-col p-3 w-[full]  md:w-[450px] relative">
 
                     <Image className="object-left hidden md:block  md:top-[-100px] md:right-[60px] md:absolute" src="/images/bsnner-line2.svg"
                            height={250} width={420} alt={"banner-item"}/>

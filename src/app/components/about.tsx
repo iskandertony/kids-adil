@@ -2,6 +2,7 @@ import Image from "next/image";
 import Titling from "@/app/components/title";
 export function About() {
     return (
+        <section  style={{backgroundImage : `url(/images/about-bg.png)`}} className={"w-full bg-no-repeat bg-cover bg-center pt-[100px] pb-[250px] xl:pb-[100px] "} >
         <section id={"about"} className={"flex flex-col justify-center items-center py-[100px] xl:container"}>
            <Titling color={"#DD91BC"} title={"O Фонде"}/>
             <div className={"relative rounded-[35px] w-full h-[1000px] lg:h-[650px] pt-[30px] text-white bg-[#67519F] xl:h-[445px] xl:w-[1360px] flex-col flex lg:flex-row  "}>
@@ -20,12 +21,13 @@ export function About() {
                 </div>
                 <Image alt={"about-circle "} src="/images/about-circle.svg" width={132} height={128} className={"absolute top-[-70px] left-[-20px]"}/>
             </div>
-            <div className={"flex flex-col relative md:pt-0 p-4  pt-[5vh]  min-h-[300px] w-[100vw] lg:mt-[50px] mt-[200px] xl:w-[1360px] py-[50px]  gap-y-[50px]"}>
+            <div className={"flex flex-col relative md:pt-0 p-4  text-white pt-[5vh]  min-h-[300px] w-[100vw] lg:mt-[50px] mt-[200px] xl:w-[1360px] py-[50px]  gap-y-[50px]"}>
                 <p className={"text-[18px] md:w-[700px] font-[300] gilroy"}> Фонд «Дети Адиля» — это не просто организация, это наша миссия, вдохновленная философией моего отца. Мы верим, что, объединяя усилия, мы можем создать мир, где каждый ребенок, независимо от своей болезни, получит шанс на нормальную жизнь. Мы готовы помочь каждому ребенку, который в этом нуждается, и дать им возможность расти здоровыми и счастливыми.</p>
                 <p className={"text-[18px] ml-[100px] md:ml-[300px] w-auto lg:w-[700px] font-[300] gilroy"}>Миссия нашего фонда — помогать детям, которые борются с тяжелыми заболеваниями, дарить им надежду и шанс на выздоровление. Мы стремимся обеспечивать доступ к качественному лечению, поддерживать семьи и создавать условия для того, чтобы дети могли расти здоровыми и счастливыми, несмотря на тяжелые испытания, с которыми они сталкиваются.</p>
                 <Image alt={"help mark"} src={"/images/about-mark.svg"} width={152} height={158} className={"absolute lg:top-[200px] xl:top-[25vh] hidden md:right-0 lg:block"}/>
                 <Image alt={"about item"} src={"/images/about-item.svg"} width={252} height={158} className={"absolute md:top-[45%] top-[45vh] hidden md:block right-[-25vw] md:bottom-0 md:-left-[100px]"}/>
             </div>
+        </section>
         </section>
     )
 }

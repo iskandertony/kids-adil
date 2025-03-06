@@ -9,10 +9,10 @@
 @layer base {
   html {
     font-family: 'Avenir Next Cyr Thin', sans-serif;
-    background-color: #FEFCF4;
+    background-color: #78D9F7;
   }
   .container {
-    @apply min-w-[1440px] px-5 mx-auto ;
+    @apply min-w-[1440px] px-5 mx-auto  ;
   }
   .gilroy{
     font-family: 'Gilroy', sans-serif;
