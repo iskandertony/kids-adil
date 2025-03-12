@@ -4,7 +4,7 @@ import React from "react";
 export default function Titling({title, color}: {title: string, color: string} ): React.JSX.Element{
     return (
         <div className="flex relative w-[280px] h-[200px] md:my-[50px]  mx-auto gap-1 md:gap-y-7">
-            <h1 className=" font-[400]  gilroy w-[703px] text-white leading-[65px] text-[45px]">
+            <h1 className=" font-[500] roboto gilroy w-[703px] text-white leading-[65px] text-[45px]">
                 {title}
             </h1>
 

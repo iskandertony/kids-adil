@@ -10,7 +10,7 @@ export default function About() {
                             <h1 className=" font-[300] text-[#E5659B] gilroy  mx-auto  leading-auto lg:leading-[65px] text-[25px] lg:text-[55px]">
                                 О ФОНДЕ
                             </h1>
-                            <p className={"font-[400] text-blue-600 gilroy leading-6 mx-auto text-[28px]"}>Помощь детям с заболеваниями</p>
+                        
                             <p className={"font-[400] leading-7 text-[#397BE8]  text-[18px]"}><b className={"text-[#E9972B] text-[38px]"}>История создания
                                 фонда</b><br/>
                                 Фонд «Дети Адиля» был создан как дань уважения моему отцу, который всегда говорил, что

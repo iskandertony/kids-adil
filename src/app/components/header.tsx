@@ -9,9 +9,9 @@ export function Header(){
     return(
         <header className="h-[80px] relative px-[20px] md:px-[20px] xl:container flex items-center justify-between">
 
-            <span className={"md:w-[187px] xl:w-[187px] lg:w-[120px] w-[120px]"}>
+            <span className={"md:w-[187px]  xl:w-[187px] lg:w-[120px] mt-[20px] w-[250px]"}>
                 <a href="/">
-                    <Image src="/logo.svg" width={187} height={30} alt="logo"/>
+                    <Image src="/logo.svg" className="w-[250px] md:w-[187px] xl:w-[187px] lg:w-[120px] " width={187} height={30} alt="logo"/>
                 </a>
             </span>
             <nav className={"hidden  lg:block"}>
@@ -25,8 +25,8 @@ export function Header(){
                     <a href="/#donate">
                         <li className={"text-[#397BE8]"}>пожертвовать</li>
                     </a>
-                    <a href="/#about">
-                        <li className={"text-[#E9972B]"}>о заболеваниях</li>
+                    <a href="/cancer">
+                        <li className={"text-[#E9972B]"}>о раке</li>
                     </a>
                     <a href="/#donate">
                         <li className={"text-[#323663]"}>контакты</li>
