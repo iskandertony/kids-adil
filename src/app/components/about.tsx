@@ -4,7 +4,7 @@ export function About() {
     return (
         <section  style={{backgroundImage : `url(/images/about-bg.png)`}} className={"w-full bg-no-repeat bg-cover bg-center pt-[100px] pb-[250px] xl:pb-[100px] "} >
         <section id={"about"} className={"flex flex-col justify-center items-center py-[100px] xl:container"}>
-           <Titling color={"#DD91BC"} title={"O Фонде"}/>
+           <Titling color={"#DD91BC"} title={"O фонде"}/>
             <div className={"relative rounded-[35px] w-full h-[900px] lg:h-[650px] pt-[30px] text-white bg-[#67519F] xl:h-[445px] xl:w-[1360px] flex-col flex lg:flex-row  "}>
                 <div className="flex flex-col py-[20px] lg:py-[50px]  px-7 w-[100%] lg:w-[67%] gap-y-7">
                     <h2 className={"text-[35px] md:text-[45px] font-[500] gilroy"}>ОСНОВНАЯ ЦЕЛЬ ПРОЕКТА ФОНДА</h2>

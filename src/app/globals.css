@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Playwrite+VN:wght@100..400&display=swap');
 @font-face {
   font-family: 'Avenir Next Cyr Thin';
   src : url('/ofont.ru_Avenir Next.ttf') format('truetype');
@@ -17,6 +17,9 @@
   .gilroy{
     font-family: 'Gilroy', sans-serif;
 
+  }
+  .kurale{
+    font-family: 'Kurale', serif;
   }
 }
 
