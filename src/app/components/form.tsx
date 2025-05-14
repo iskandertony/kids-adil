@@ -37,7 +37,7 @@ export function Form() {
     return (
         <section style={{backgroundImage: `url(/images/form-bg.svg)`}} className={"xl:bg-contain bg-cover Group 2 (3).png bg-center xl:-pt-[100px] bg-no-repeat w-full"}>
     <section id={"donate"} className={"flex flex-col xl:container p-[20px] relative md:my-[100px]  "}>
-            <Titling title={"Пожертовать"} color={"#ee76a9"} />
+            <Titling title={"Пожертвовать"} color={"#ee76a9"} />
         <div className=" mx-auto  bg-cream  grid grid-cols-1 grid-flow-dense lg:grid-cols-2 xl:gap-[100px] gap-8">
             <Image height={150} width={150} className={"absolute lg:w-[150px] lg:h-[150px] right-[90%] w-[50px] h-[50px]  top-5 lg:top-0 lg:right-[300px]"} src={"/images/form-line-circle.svg"} alt={"alt circle"} />
             <Image height={450} width={400} className={"absolute hidden xl:block z-[-1] top-[540px] left-[300px]"} src={"/images/bsnner-line2.svg"} alt={"alt circle"} />
