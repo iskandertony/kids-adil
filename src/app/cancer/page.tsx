@@ -7,13 +7,10 @@ export default function Cancer() {
         <div className={"flex flex-col gap-y-[20px]  w-full"}>
           <div className={"flex flex-col gap-y-[20px]"}>
             <h1 className=" font-[500] text-[#e64128] gilroy mx-auto  leading-auto lg:leading-[65px] text-4xl lg:text-[55px]">
-              Детский рак
+              {" "}
+              О раке
             </h1>
-            <b className={"text-[#7d32df] leading-8 text-3xl"}>
-              На этой странице вы сможете найти информацию о различных видах
-              детского рака и их причинах{" "}
-            </b>
-            <br />
+
             <b className={"text-3xl text-[#E9972B] leading-7 my-[30px]"}>
               {" "}
               Возможные симптомы детского рака
@@ -70,7 +67,7 @@ export default function Cancer() {
               Виды детского рака:
             </b>
             <p className={"font-[300] leading-7 text-[#397BE8]  text-[18px]"}>
-              <i>Наиболее частые виды детского рака</i>
+              <b>Наиболее частые виды детского рака</b>
             </p>
             <ul className="list-disc pl-5 flex flex-col gap-3 text-[#397BE8]  leading-5">
               <li>
@@ -84,7 +81,7 @@ export default function Cancer() {
               </li>
             </ul>
             <p className={"font-[300] leading-7 text-[#397BE8]  text-[18px]"}>
-              <i>Другие виды детского рака включают </i>
+              <b>Другие виды детского рака включают </b>
             </p>
             <ul className="list-disc pl-5 flex flex-col gap-3 text-[#397BE8]  leading-5">
               <li> Ретинобластома (тип глазного рака)</li>

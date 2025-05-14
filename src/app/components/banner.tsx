@@ -9,13 +9,13 @@ export function Banner(){
             </div>
             <div className={"flex flex-col  md:w-[56%] w-full gap-y-[60px] md:gap-0  justify-between"}>
                 <div className="flex flex-col gap-y-1 md:gap-y-10">
-                 <div className="rounded-3xl mx-auto relative lg:p-5 px-5 py-3 w-[306px] md:w-full lg:w-[770px] lg:h-auto h-[85px] bg-[#D0F59E] ">
+                 <div className="rounded-3xl mx-auto relative lg:p-5 px-5 py-3 w-[306px] md:w-full lg:w-[700px] lg:h-auto h-[85px] bg-[#D0F59E] ">
                     <h1 className=" font-[300] text-[#E5659B] gilroy w-[306px] md:w-full lg:w-[703px] leading-auto lg:leading-[65px] text-[25px] lg:text-[55px]">
                         <span className="font-[600]">ПОМОГИТЕ ДЕТЯМ С</span> ЗАБОЛЕВАНИЯМИ
                     </h1>
                   </div>
-                     <div className="rounded-3xl mx-auto relative p-5 w-[306px] md:w-[770px]  px-4 bg-[#DD91BC] ">
-                    <h1 className="font-medium md:font-[500] text-white gilroy w-[296px] md:w-[736px] leading-auto md:leading-[55px] text-[18px] md:text-[45px]">
+                     <div className="rounded-3xl mx-auto relative p-5 w-[306px] md:w-[700px]  px-4 bg-[#DD91BC] ">
+                    <h1 className="font-medium md:font-[500] text-white gilroy w-[296px] md:w-[736px] leading-auto md:leading-[55px] text-[18px] md:text-[40px]">
                         ВАШ ВКЛАД МЕНЯЕТ ИХ ЖИЗНЬ
                        </h1>
                     <Image className="object-left md:w-[360px] w-[250px] left-0  top-[80px] rotate-6  md:bottom-[0px] md:right-[-100px] md:rotate-6 absolute" src="/images/banner-line1.svg"
