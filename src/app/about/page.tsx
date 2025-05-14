@@ -3,7 +3,7 @@ import {Header} from "@/app/components/header";
 export default function About() {
     return (
 
-            <section className={"xl:container px-[15px] overflow-scroll"}>
+            <section className={"xl:container px-[15px] "}>
                 <div className={"flex  flex-col my-10 gap-[20px]"}>
                     <div className={"flex flex-col gap-y-[20px]  w-full"}>
                         <div className={"flex flex-col gap-y-[20px]"}>

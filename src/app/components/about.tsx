@@ -7,7 +7,7 @@ export function About() {
            <Titling color={"#DD91BC"} title={"O фонде"}/>
             <div className={"relative rounded-[35px] w-full h-[900px] lg:h-[650px] pt-[30px] text-white bg-[#67519F] xl:h-[445px] xl:w-[1360px] flex-col flex lg:flex-row  "}>
                 <div className="flex flex-col py-[20px] lg:py-[50px]  px-7 w-[100%] lg:w-[67%] gap-y-7">
-                    <h2 className={"text-[35px] md:text-[45px] font-[500] gilroy"}>ОСНОВНАЯ ЦЕЛЬ </h2>
+                    <h2 className={"text-[35px] md:text-[45px] font-[500] gilroy"}>ОСНОВНАЯ ЦЕЛЬ ПРОЕКТА ФОНДА</h2>
                     <p className={"text-[16px] md:text-[20px] w-[97%] font-[300] gilroy"}>Основная цель фонда — поддержка детей, страдающих от серьезных заболеваний, и помощь их семьям в самых сложных ситуациях. Мы понимаем, что болезнь может стать не только физическим испытанием, но и эмоциональной и финансовой нагрузкой для всей семьи. Фонд «Дети Адиля» создан для того, чтобы снять эту нагрузку, помогать детям, которые нуждаются в медицинской помощи, и делать их будущее светлее.</p>
                     <div className={"flex flex-col  md:flex-row gap-y-5 md:gap-x-10"}>
                         <a href={"/about"}><button className={ "w-[125px] md:min-w-[125px] h-[44px] rounded-[50px] border-[1px]  border-white flex items-center justify-center text-white bg-[#transtperent]"}>Про нас</button></a>
