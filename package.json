@@ -1,6 +1,7 @@
 {
-  "name": "cahrity",
+  "name": "kids-adil",
   "version": "0.1.0",
+  "homepage": "https://iskandertony.github.io/kids-adil",
   "private": true,
   "scripts": {
     "dev": "next dev",

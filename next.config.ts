@@ -1,11 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.js
+const basePath = '/kids-adil';
+const assetPrefix = '/kids-adil';
+
+export default {
     output: 'export',
-    basePath: '/kids-adil',
-    assetPrefix: '/kids-adil/',
+    basePath,
+    assetPrefix,
     images: {
         unoptimized: true,
     },
 };
-
-export default nextConfig;
