@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: 'export',
+    basePath: '/kids-adil',
+    assetPrefix: '/kids-adil/',
 };
 
 export default nextConfig;
