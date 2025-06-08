@@ -7,11 +7,12 @@ export default function About() {
                 <div className={"flex  flex-col my-10 gap-[20px]"}>
                     <div className={"flex flex-col gap-y-[20px]  w-full"}>
                         <div className={"flex flex-col gap-y-[20px]"}>
-                            <h1 className=" font-[300] text-[#E5659B] gilroy  mx-auto  leading-auto lg:leading-[65px] text-[25px] lg:text-[55px]">
+                            <h1 className="font-bold uppercase text-[#E5659B] gilroy mx-auto leading-auto lg:leading-[65px] text-[25px] lg:text-[55px]">
                                 О ФОНДЕ
                             </h1>
-                        
-                            <p className={"font-[400] leading-7 text-[#397BE8]  text-[18px]"}><b className={"text-[#E9972B]  mt-1 text-[24px]"}>История создания
+
+                            <p className={"font-[400] leading-7 text-[#397BE8]  text-[18px]"}><b
+                                className={"text-[#E9972B]  mt-1 text-[24px]"}>История создания
                                 фонда</b><br/>
                                 Фонд «Дети Адиля» был создан как дань уважения моему отцу, который всегда говорил, что
                                 «все дети — это наши братья и сестры, и они наши дети». Это не просто слова — это целая
@@ -23,7 +24,8 @@ export default function About() {
                                 любовь могут изменить жизнь детей, дать им надежду и вернуть уверенность в завтрашнем
                                 дне.
                                 <br/>
-                                <br/> <b className={"mx-auto text-[#E9972B]  text-[24px]"}> Наши принципы работы:</b><br/>
+                                <br/> <b className={"mx-auto text-[#E9972B]  text-[24px]"}> Наши принципы
+                                    работы:</b><br/>
                                 Мы придерживаемся принципов открытости, честности и прозрачности в работе фонда. Мы
                                 уверены, что только с таким подходом можно добиться доверия и уважения со стороны тех,
                                 кому мы помогаем, а также со стороны наших партнеров и доноров.
@@ -34,14 +36,15 @@ export default function About() {
                                 сторонников.
                                 <br/>
                                 <br/> <b className={"text-[24px] text-[#E9972B]"}> Честность и доверие:</b><br/>
-                                 Мы всегда честно и открыто работаем с теми, кто нуждается в
+                                Мы всегда честно и открыто работаем с теми, кто нуждается в
                                 поддержке, и с теми, кто решает помочь.
                                 <br/>
                                 <br/> <b className={"text-[28px] text-[#E9972B]"}>Социальная ответственность:</b><br/>
-                                 Мы считаем, что помощь должна быть оказана без условий и
+                                Мы считаем, что помощь должна быть оказана без условий и
                                 различий, независимо от социального положения и других факторов.
                                 <br/>
-                                <br/><b className={"text-[24px] text-[#E9972B] text-center mx-auto my-[30px]"}> Как помочь</b> <br/>
+                                <br/><b className={"text-[24px] text-[#E9972B] text-center mx-auto my-[30px]"}> Как
+                                    помочь</b> <br/>
                                 Мы приглашаем каждого человека стать частью нашего фонда. Вы можете помочь разными
                                 способами:
                                 Доноры: Ваши пожертвования помогут нам собирать средства для лечения детей, обеспечивать
